@@ -1,7 +1,7 @@
 
 var bravia = require('./lib');
 
-bravia('192.168.1.100', function(client) {
+bravia('192.168.1.158', function(client) {
 
   // List available commands
   client.getCommandNames(function(list) {
